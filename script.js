@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('#eventForm input, #eventForm select').each(function() {
             if ($(this).val() === "") {
                 isValid = false;
-                alert("Please fill out this field.");
+                alert("Please fill all the fields.");
                 return false;
             }
         });
